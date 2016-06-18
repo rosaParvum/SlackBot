@@ -1,2 +1,1 @@
-def poop():
-    return("Poop")
+from bot import *
