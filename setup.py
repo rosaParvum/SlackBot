@@ -8,4 +8,7 @@ setup(name='slackbottools',
       author_email='thomas@khandaan.org',
       license='Apache 2.0',
       packages=['slackbottools'],
+      install_requires =[
+          'slackclient'
+          ],
       zip_safe=False)
