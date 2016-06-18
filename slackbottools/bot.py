@@ -4,7 +4,7 @@ class Bot:
 
     def __init__(self, token):
         self.token = token
-        sc = SlackClient(token)
+        self.sc = SlackClient(token)
 
     def read_msg(self):
         if self.sc.rtm_connect():
