@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: slackbottools
+Version: 0.3
+Summary: A python package built for writing SlackBots
+Home-page: https://github.com/coderplans/SlackBot
+Author: coderplans
+Author-email: thomas@khandaan.org
+License: Apache 2.0
+Description: UNKNOWN
+Platform: UNKNOWN

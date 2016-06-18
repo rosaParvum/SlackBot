@@ -1,0 +1,7 @@
+setup.py
+slackbot-tools/__init__.py
+slackbot_tools.egg-info/PKG-INFO
+slackbot_tools.egg-info/SOURCES.txt
+slackbot_tools.egg-info/dependency_links.txt
+slackbot_tools.egg-info/not-zip-safe
+slackbot_tools.egg-info/top_level.txt
