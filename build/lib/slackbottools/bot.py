@@ -3,13 +3,11 @@ from slackclient import SlackClient
 class Bot:
 
     def __init__(self, token):
+        self.sc = SlackClient(token)
         self.token = token
 
-    def connect(self):
-        self.sc = SlackClient(token)
-        sc.rtm_connect()
-
     def read_msg(self):
+        if self.sc.rtm_connect():
             print("Connection Established")
 
 

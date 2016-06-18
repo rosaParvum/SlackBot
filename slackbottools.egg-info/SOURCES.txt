@@ -1,3 +1,4 @@
+setup.cfg
 setup.py
 slackbottools/__init__.py
 slackbottools/bot.py
