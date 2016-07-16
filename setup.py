@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(name='slackbottools',
-      version='1.5',
+      version='2.0',
       description='A python package built for writing SlackBots',
       url='https://github.com/coderplans/SlackBot',
       author='coderplans',
