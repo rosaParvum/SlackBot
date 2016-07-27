@@ -1,12 +1,12 @@
 from setuptools import setup
 
 setup(name='slackbottools',
-      version='2.0',
+      version='2.5',
       description='A python package built for writing SlackBots',
       url='https://github.com/coderplans/SlackBot',
       author='coderplans',
       author_email='thomas@khandaan.org',
-      license='Apache 2.0',
+      license='MIT',
       packages=['slackbottools'],
       install_requires =[
           'slackclient'
