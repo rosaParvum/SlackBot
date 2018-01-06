@@ -26,7 +26,16 @@ class Bot:
         self.client.rtm_send_message(channel, msg)
 
     def read_msg(self):
-           return(self.client.rtm_read())
+        msg = self.client.rtm_read()
+        if len(msg) > 0:
+            msg = msg[0]
+            if "type" in msg:
+                if msg["type"] == "message":
+                    return msg
+
+            return []
+        else:
+            return []
         
     def hello(self):
         self.client.api_call("chat.postMessage", token=self.token, channel="#general", text="Hello World", as_user=True)
